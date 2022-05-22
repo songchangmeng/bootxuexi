@@ -1,0 +1,66 @@
+
+#共通配置
+test:
+  name: hool
+  maker: song
+  timeout: 10
+  datasize: 10MB
+  port: 10
+#spring:
+#  datasource:
+#    durid:
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#      url: jdbc:mysql://localhost:3306/springtest
+#      username: root
+#      password: scm521
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-field: flag
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+spring:
+  datasource:
+    druid:
+      username: root
+      password: scm521
+      url: jdbc:mysql://localhost:3306/springtest
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  profiles:
+    active: pro
+    group:
+      "pro": proR,proB
+      "dev": devR,devB
+#      排除热部署目录
+#  关闭热部署
+  devtools:
+    restart:
+      exclude: static/**
+      enabled: false
+#  redis
+  redis:
+    host: localhost
+    port: 6379
+
+logging:
+  level:
+    root: info
+    info: debug
+#    分组
+  group:
+    info: com.scm.demo
+#    格式
+  pattern:
+#    d时间 5位数 不够空格  p 级别 m 信息
+    console: "%d %5p %m %n"
+  logback:
+    rollingpolicy:
+      file-name-pattern: D:/server.%d.%i.log
+      max-file-size: 4KB
+      max-history: 1
+  file:
+    name: server.log
+
+

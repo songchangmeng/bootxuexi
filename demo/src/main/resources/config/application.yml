@@ -1,0 +1,7 @@
+#高等级覆盖低等级（冲突）叠加（不冲突合并配置）1级（/config）：abc 2级abd 保留cd配置，ab1级覆盖2级
+spring:
+  profiles:
+    active: pro
+    group:
+      "pro": proR,proB
+      "dev": devR,devB

@@ -1,0 +1,5 @@
+2022-05-22 17:10:06.764  INFO 23060 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-22 17:10:07.008  INFO 23060 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-22 17:10:09.163  INFO 23060 --- [main] com.scm.demo.RedisTest                   : Started RedisTest in 4.864 seconds (JVM running for 6.244)
+2022-05-22 17:10:09.490  INFO 23060 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-22 17:10:09.492  INFO 23060 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

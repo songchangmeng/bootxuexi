@@ -1,0 +1,18 @@
+2022-05-22 11:55:38.792  INFO 12216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-22 11:55:38.822  INFO 12216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 81 (http) with context path ''
+2022-05-22 11:55:38.822  INFO 12216 --- [restartedMain] com.scm.demo.DemoApplication             : Started DemoApplication in 1.995 seconds (JVM running for 2.669)
+2022-05-22 13:50:02.016  INFO 19688 --- [restartedMain] com.scm.demo.DemoApplication             : Starting DemoApplication using Java 1.8.0_333 on songchangmeng with PID 19688 (C:\Users\scm19\IdeaProjects\demo\target\classes started by scm19 in C:\Users\scm19\IdeaProjects\springboot)
+2022-05-22 13:50:02.016 DEBUG 19688 --- [restartedMain] com.scm.demo.DemoApplication             : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-22 13:50:02.017  INFO 19688 --- [restartedMain] com.scm.demo.DemoApplication             : The following 3 profiles are active: "pro", "proR", "proB"
+2022-05-22 13:50:02.056  INFO 19688 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-22 13:50:02.056  INFO 19688 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-22 13:50:03.350  INFO 19688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 81 (http)
+2022-05-22 13:50:03.365  INFO 19688 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-22 13:50:03.365  INFO 19688 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-22 13:50:03.437  INFO 19688 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-22 13:50:03.437  INFO 19688 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1370 ms
+2022-05-22 13:50:03.608  INFO 19688 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-22 13:50:03.818  INFO 19688 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-22 13:50:04.704  INFO 19688 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-22 13:50:04.730  INFO 19688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 81 (http) with context path ''
+2022-05-22 13:50:04.738  INFO 19688 --- [restartedMain] com.scm.demo.DemoApplication             : Started DemoApplication in 3.175 seconds (JVM running for 4.246)
