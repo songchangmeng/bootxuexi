@@ -59,5 +59,7 @@ public class RedisTest {
         new Thread(new Mythread()).start();
         new Thread(new Mythread()).start();
         System.out.println("::::::::::::::::::");
+        System.out.println("::::::::::::::::::");
+        System.out.println("::::::::::::::::::");
     }
 }
