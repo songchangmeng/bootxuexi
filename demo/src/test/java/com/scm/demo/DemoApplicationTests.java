@@ -27,6 +27,7 @@ class DemoApplicationTests {
     String test;
     @Test
     void contextLoads() {
+
         System.out.println(test);
         System.out.println(testconfig);
 //        Book thebook= book.selectById(1);
@@ -45,7 +46,8 @@ void pagetest(){
   //  @Transactional(rollbackFor = Exception.class)
     void test(){
         UpdateWrapper<Book> wrapper =new UpdateWrapper();
-        wrapper.eq("name","pgq").set("maker","pgqdpg");
+//        wrapper.eq("name","sssssss").set("maker","pgqdpg");
+        wrapper.likeRight("name","ss").set("maker","jujuninb");
         book.update(null,wrapper);
       //  new NullPointerException();
 
