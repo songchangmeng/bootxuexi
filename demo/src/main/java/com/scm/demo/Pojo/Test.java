@@ -14,10 +14,11 @@ import javax.validation.Valid;
 import javax.validation.constraints.Max;
 import java.time.Duration;
 import java.time.temporal.ChronoUnit;
+import java.util.List;
 
-//@Component//加载到spring容器
+@Component//加载到spring容器
 @Data
-@ConfigurationProperties(prefix = "test")//属性匹配配置文件忽略大小写和 _ -
+@ConfigurationProperties(prefix = "test")//属性匹配配置文件忽略大小写和 _ - setter方法注入
 //@Value({${xxx}})不支持宽松绑定
 @Validated//对bean开启校验，校验不符合条件报错
 public class Test {
@@ -28,4 +29,5 @@ public class Test {
      private DataSize dataSize;
  //    @Max(value = 5,message = "最大值为5")//校验格式
      private int port;
+     private List<Integer> list;
 }

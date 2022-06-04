@@ -1,5 +1,6 @@
 package com.scm.demo;
 
+import com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.scm.demo.Pojo.Book;
@@ -46,4 +47,20 @@ public class ServiceTest {
         System.out.println(s);
 
     }
+    @Test
+    void tests() {
+        Book book = new Book();
+        book.setId(1);
+        book.setName("ssss");
+        book.setMaker("faker");
+//        System.out.println(bookMapper.getbook(book));
+//        bookMapper.getbooks(book);
+        System.out.println(bookMapper.getbooksid(1));
+    }
+
+    @Test
+    void book(@Autowired Book book) {
+//        System.out.println(book);
+    }
+
 }
