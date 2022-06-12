@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.time.LocalDateTime;
 
 /**
- * 自动填充，当表更新时 BBBB
+ * 自动填充，当表更新时 BBBB11
  */
 @Component
 public class FillHander implements MetaObjectHandler{
